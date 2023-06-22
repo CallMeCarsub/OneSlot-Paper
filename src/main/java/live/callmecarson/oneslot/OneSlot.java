@@ -14,6 +14,7 @@ public class OneSlot extends ExtendedJavaPlugin {
     protected void enable() {
         instance = this;
         new MiscModule().bindModuleWith(this);
+        new NoteModule().bindModuleWith(this);
     }
 
     @Override
